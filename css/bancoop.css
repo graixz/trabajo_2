@@ -1,0 +1,290 @@
+body{
+    border: 1px solid;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-radius: 20px;
+    height: 25rem;
+    margin: 5px;
+}
+
+.art1{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.esp{
+    border: 1px solid;
+    height: 1.5rem;
+    background-color: black;
+}
+
+.art2{
+    border: 1px solid;
+    height: 30%;
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+}
+li{
+    border-right: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.do{
+    border: none;
+}
+
+li:hover{
+    background-color: green;
+    transition: 2s;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.texto1{
+    border-radius: 12px 0px 0px 0px ;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.imagen{
+    width: 100%;
+    border-radius: 0px 12px 0px 0px;
+    background-color: gray;
+    background-image: url(/img2/concepto-de-geopolítica-o-economía-mundial-figuras-ajedrez-colocadas-en-banner-mapa-215324254.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+
+
+main{
+    height: 50rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 5px;
+}
+
+.sect1{
+    border-radius: 20px;
+    width: 30%;   
+
+}
+
+.titu{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.c1{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    background-color: yellow;
+}
+
+.boton:hover{
+    background-color: aqua;
+}
+
+.c2{
+    border-radius: 0px 0px 20px 20px;
+    height: 28.7rem;
+    background-color: rgb(26, 25, 25);
+   margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    background-color: aqua;
+    transition: 3s;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.texto{
+    color: gold;
+    font-size: 34px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+
+}
+
+.texto2{
+    color: white;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.sect2{
+    width: 100%;
+   
+}
+
+.articulo1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.uno{
+    border: 1px solid;
+    border-radius: 12px 0px 0px 0px;
+    width: 50%;
+    background-color: rgb(241, 229, 229);
+}
+
+.dos{
+    border: 1px solid;
+    border-radius: 0px 12px 0px 0px;
+    width: 50%;
+    background-color: rgb(241, 229, 229);
+}
+
+.articulo2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tres{
+    border: 1px solid;
+    border-radius: 0px 0px 0px 12px;
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(241, 229, 229);
+}
+
+.cuatro{
+    border: 1px solid;
+    border-radius: 0px 0px 12px 0px;
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(241, 229, 229);
+}
+
+.tituuno{
+    background-color: black;
+    border-radius: 12px 0px 0px 0px;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titudos{
+    background-color: black;
+    border-radius: 0px 12px 0px 0px;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titutres{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titucuatro{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.tarje{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamaño{
+    width: 267px;
+    height: 173px;
+}
+
+
+footer{
+    border: 1px solid;
+    border-radius: 0px 0px 20px 20px;
+    margin: 5px;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(26, 25, 25);
+}
+
